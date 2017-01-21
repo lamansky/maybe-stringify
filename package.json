@@ -1,0 +1,29 @@
+{
+  "name": "maybe-stringify",
+  "version": "1.0.0",
+  "description": "Converts data to JSON if possible, or else returns a fallback value.",
+  "author": "John Lamansky",
+  "license": "MIT",
+  "homepage": "https://github.com/lamansky/maybe-stringify",
+  "repository": "lamansky/maybe-stringify",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "safe-json-stringify": "^1.0.3"
+  },
+  "devDependencies": {
+    "eslint-config-lamansky": "^1.0.0",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "eslintConfig": {
+    "extends": "lamansky",
+    "env": {
+      "mocha": true
+    }
+  }
+}
